@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Aave and Shopify",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopify"
+  ],
+  "author": "eras",
+  "license": "ISC",
+  "dependencies": {
+    "@aave/protocol-js": "^4.3.0",
+    "axios": "^1.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.5",
+    "shopify-api-node": "^3.12.3"
+  }
+}
